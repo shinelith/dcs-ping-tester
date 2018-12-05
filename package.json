@@ -1,0 +1,16 @@
+{
+  "name": "dcs-ping-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "opn": "^5.4.0",
+    "ping": "^0.2.2"
+  }
+}
