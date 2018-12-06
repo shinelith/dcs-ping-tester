@@ -11,4 +11,5 @@ DCS拥有多台服务器用来提供更新服务，并由主服务器进行分�
 4. 双击run.bat，等待ping test 结果
 5. 依次点击Download Test，测试下载速度，找出下载最快的服务器，如“srv1update.digitalcombatsimulator.com”
 6. 点击“srv1update.digitalcombatsimulator.com” 左侧的Use，程序会自动生成HOST内容
-7. 将HOST代码粘贴到C:Windows\system32\drivers\etc\hosts文件中（修改这个文件前需要在右键属性中关闭该文件的写保护）
+7. 将HOST代码粘贴到C:Windows\system32\drivers\etc\hosts文件中并保存（修改这个文件前需要在右键属性中关闭该文件的写保护）
+8. 重新打开DCS_updater进行更新
