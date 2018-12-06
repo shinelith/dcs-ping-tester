@@ -143,7 +143,7 @@ function showSiteTableHtml() {
     });
     app.get('/use', function (req, res) {
         var html = '<h2># DCS Update HOSTS</h2>';
-        html += "<p># 请将下面的内容复制到C:\\Windows\\system32\\drivers\\etc\\hosts中，并重新更新DCS。</br># 如果想恢复原样，青删除hosts文件中的类似内容。</p>";
+        html += "<p># 请将下面的内容复制到C:\\Windows\\system32\\drivers\\etc\\hosts中，并重新更新DCS。</br># 如果想恢复原样，请删除hosts文件中的类似内容。</p>";
         ip = req.query.host;
         for (let host of dcs_update_site_top_list) {
             host.ip = ip;
